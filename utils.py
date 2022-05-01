@@ -53,7 +53,7 @@ def add_crop_circle(props):
         i_theta = i * i_to_theta
 
         active_stroke = frame_strokes.new()
-        active_stroke.line_width = 12.0
+        active_stroke.line_width = 12
         active_stroke.hardness = 1.0
         active_stroke.start_cap_mode = 'FLAT'
         active_stroke.end_cap_mode = 'FLAT'
